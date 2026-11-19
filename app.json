@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "SALAM-WIFI UM",
+    "slug": "salam-wifi-um",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": { "package": "com.salamwifi.um" },
+    "ios": {
+      "bundleIdentifier": "com.salamwifi.um",
+      "infoPlist": { "NSAppTransportSecurity": { "NSAllowsArbitraryLoads": true } }
+    },
+    "plugins": [
+      "expo-secure-store",
+      ["expo-build-properties", { "android": { "usesCleartextTraffic": true } }]
+    ]
+  }
+}
