@@ -2,7 +2,11 @@
   "name": "salam-wifi-um",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
-  "scripts": { "start": "expo start", "android": "expo start --android" },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
   "dependencies": {
     "expo": "~52.0.0",
     "expo-build-properties": "~0.13.2",
